@@ -44,7 +44,7 @@ public class DepartmentController extends BaseController {
 
     @GetMapping("/departments/findAll")
     public R findAll() {
-        return departmentService.findById(parseCompanyId());
+        return departmentService.findAll(parseCompanyId());
     }
 }
 
