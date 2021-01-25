@@ -19,3 +19,18 @@ CREATE TABLE `co_company` (
       `balance` double NOT NULL COMMENT '当前余额',
       `create_time` datetime NOT NULL COMMENT '创建时间'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `co_department` (
+     `id` varchar(40) NOT NULL,
+     `company_id` varchar(255) NOT NULL COMMENT '企业ID',
+     `parent_id` varchar(255) DEFAULT NULL COMMENT '父级部门ID',
+     `name` varchar(255) NOT NULL COMMENT '部门名称',
+     `code` varchar(255) NOT NULL COMMENT '部门编码',
+     `category` varchar(255) DEFAULT NULL COMMENT '部门类别',
+     `manager_id` varchar(255) DEFAULT NULL COMMENT '负责人ID',
+     `city` varchar(255) DEFAULT NULL COMMENT '城市',
+     `introduce` text COMMENT '介绍',
+     `create_time` datetime NOT NULL COMMENT '创建时间',
+     `manager` varchar(40) DEFAULT NULL COMMENT '部门负责人',
+     PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

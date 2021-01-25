@@ -1,6 +1,6 @@
 package me.xueyao.controller;
 
-import me.xueyao.domain.Company;
+import me.xueyao.domain.company.Company;
 import me.xueyao.entity.R;
 import me.xueyao.service.CompanyService;
 import org.springframework.beans.factory.annotation.Autowired;

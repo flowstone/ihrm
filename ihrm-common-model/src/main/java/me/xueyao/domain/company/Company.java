@@ -1,4 +1,4 @@
-package me.xueyao.domain;
+package me.xueyao.domain.company;
 
 import lombok.Data;
 import lombok.experimental.Accessors;

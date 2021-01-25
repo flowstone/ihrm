@@ -1,6 +1,6 @@
 package me.xueyao.service;
 
-import me.xueyao.domain.Company;
+import me.xueyao.domain.company.Company;
 import me.xueyao.entity.R;
 
 /**

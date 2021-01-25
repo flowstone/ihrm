@@ -1,6 +1,6 @@
 package me.xueyao.service.impl;
 
-import me.xueyao.domain.Company;
+import me.xueyao.domain.company.Company;
 import me.xueyao.entity.R;
 import me.xueyao.enums.ResultCode;
 import me.xueyao.repository.CompanyRepository;
