@@ -7,11 +7,11 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-@EntityScan("me.xueyao.domain.company")
-public class CompanyApplication {
+@EntityScan("me.xueyao.domain.system")
+public class IhrmSystemApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CompanyApplication.class, args);
+        SpringApplication.run(IhrmSystemApplication.class, args);
     }
 
     @Bean
